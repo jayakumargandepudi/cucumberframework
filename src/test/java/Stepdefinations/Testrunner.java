@@ -13,7 +13,7 @@ monochrome = true,
 plugin = {"pretty","junit:target/JUnitReports/report.xml",
 		"html:target/HtmlReports/HtmlReports.html",
 		"json:target/Jsonreports/reports.json"},
-		//plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		
                    tags="@retest"
 )
 
